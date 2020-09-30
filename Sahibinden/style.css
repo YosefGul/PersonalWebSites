@@ -258,7 +258,7 @@
     overflow: hidden;
 }
 
-#f-m-btn {
+#f-m-bot {
     width: 100rem;
     padding: 0.6rem;
     margin-top: 1.5rem;
@@ -272,6 +272,10 @@
 
 .f-b-link:hover {
     text-decoration: underline;
+}
+
+#mobile-top, #back-unicode, #back-unicode a, #mb-txt-one, #mobile-middle, .mb-txt-question, .mb-input-txt,  #mb-remember-btn, #uye-ol, #m-footer-div-two, #ilerle-two {
+    display: none;
 }
 
 /* Media Query */
@@ -348,6 +352,8 @@
 
     
 }
+
+
 
 @media screen and (max-width:840px) {
 
@@ -427,7 +433,7 @@
         height: 2rem;
     }
 
-    #ilerle {
+    #ilerle-two {
         width: 100%;
         padding: 2rem;
         margin-top: 2rem;
@@ -481,5 +487,9 @@
     }
 }
 
-
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 5.5px;
+    }
+}
 
