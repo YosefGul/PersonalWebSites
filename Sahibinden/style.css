@@ -281,6 +281,54 @@
     html {
         font-size: 9.5px;
     }
+    
+    #main-m {
+        height: 52rem;
+    }
+
+    .middle {
+        height: 52rem;
+    }
+
+    #f-m-bot {
+        margin-top: 1.8rem;
+    }
+    
+    #uye-txt {
+        font-size: 2.2rem;
+    }
+
+    .link-sifre, .link-sifre p{
+        font-size: 1.7rem;
+    }
+
+    .link-sifre a {
+        font-size: 1.4rem;
+    }
+
+    #m-footer-div {
+        font-size: 1.1rem;
+    }
+
+    #txt-one {
+        width: 35rem;
+        font-size: 2.2rem;   
+    }
+    
+    #txt-two {
+        width: 35rem;
+        font-size: 1.6rem;
+  
+    }
+
+    #ilerle {
+        font-size: 2rem;
+    }
+
+    #txt-tree {
+        font-size: 2rem;
+    }
+
 }
 
 
@@ -290,16 +338,15 @@
         font-size: 8.5px;
     }
 
-    #f-m-bot {
-        margin-top: 1.8rem;
-    }
-    
+   
 }
 
 @media screen and (max-width:920px) {
     html {
         font-size: 8px;
     }
+
+    
 }
 
 @media screen and (max-width:840px) {
@@ -997,31 +1044,31 @@
     }
     
     #top {
-        height: 6rem;
+        height: 8rem;
         margin-bottom: 2rem;
     }
 
     #top img{
-        width: 34rem;
-        height: 7rem;
+        width: 38rem;
+        height: 8rem;
     }
 
     #main-m {
-        height: 205rem;
+        height: 215rem;
         justify-content: initial;
         display: grid;
     }
 
     .middle {
         width        : 100rem;
-        height       : 110rem;
+        height       : 115rem;
         border       : 0.1rem solid #dfdfdf;
         border-radius: 0.3rem;
         padding      : 3rem;
     }
 
     .middle-two {
-        height: 80rem;
+        height: 90rem;
     }
 
     .clip {
@@ -1047,13 +1094,13 @@
     }
 
     #ilerle {
-        padding: 2rem;
-        font-size: 5rem;
+        padding: 3rem;
+        font-size: 5.5rem;
         width: 80rem;
     }
 
     #remember-btn {
-        font-size: 3.2rem;
+        font-size: 3.5rem;
         width: 80rem;
         margin-top: 2rem;
     }
@@ -1074,20 +1121,20 @@
 
     #txt-one {
         width: 80rem;
-        font-size: 4.8rem;   
+        font-size: 5.5rem;   
         margin-top: 25rem;
     }
     
     #txt-two {
         width: 80rem;
-        font-size: 3.2rem;
-  
+        font-size: 4rem;
     }
 
     #txt-tree {
         width: 80rem;
-        font-size: 4.5rem;
+        font-size: 5.5rem;
         margin-top: 1.5rem;
+        padding: 3rem;
     }
 
     #footer {
