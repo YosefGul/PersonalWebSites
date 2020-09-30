@@ -258,7 +258,7 @@
     overflow: hidden;
 }
 
-#f-m-bot {
+#f-m-btn {
     width: 100rem;
     padding: 0.6rem;
     margin-top: 1.5rem;
@@ -352,811 +352,134 @@
 @media screen and (max-width:840px) {
 
     html {
-        font-size: 7px;
+        font-size: 10px;
     }
-    #top {
-        height: 4.8rem;
-    }
-
-    #top img{
-        width: 25rem;
-        height: 4.8rem;
+    
+    #all {
+        display: none
     }
 
-    #main-m {
-        height: 142rem;
-        justify-content: initial;
-        display: grid;
+    body {
+        margin: 0;
     }
 
-    .middle {
-        width        : 100rem;
-        height       : 70rem;
-        border       : 0.1rem solid #dfdfdf;
-        border-radius: 0.3rem;
-        padding      : 2rem;
+    #mobile-top {
+        width: 100%;
+        height: 8rem;
+        background-color: #33628e;
     }
 
-    .clip {
-        width: 10rem;
-        height: 10rem;
+    #back-unicode, #back-unicode a{
+        width: auto;
+        height: auto;
+        font-size: 6rem;
+        margin: auto;
+        text-decoration: none;
+        position: relative;
+        left: 0.5rem;
+        color: white;
     }
 
-    #uye-txt {
-        font-size: 2.8rem;
+    #mb-txt-one {
+        width: 100%;
+        margin: auto;
+        font-size: 3.2rem;
+        text-align: center;
+        color: white;
+        font-weight: bold;
     }
 
-    .link-sifre, .link-sifre p{
-        font-size: 2.2rem;
+    
+
+    #mobile-middle {
+        width: 90%;
+        height: 30rem;
+        margin: auto;
+        margin-top: 3rem;
     }
 
-    .link-sifre a {
-        font-size: 1.8rem;
+    .mb-txt-question {
+        width: 100%;
+        padding: 1.5rem 0;
+        font-size: 2rem;
+        font-weight: bold;
     }
 
-    .link-sifre {
-        width: 60rem;
+    .mb-input-txt {
+        width: 100%;
+        height: 6rem;
+        padding: 1.5rem;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+        
+    }
+
+    #mb-remember-btn {
+        width: 100%;
+        font-size: 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    input {
+        width: 2rem;
+        height: 2rem;
     }
 
     #ilerle {
-        font-size: 2.8rem;
-        width: 60rem;
+        width: 100%;
+        padding: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 2.2rem;
     }
-
-    #remember-btn {
-        font-size: 2rem;
-        width: 60rem;
-    }
-
-    .input-txt {
-        width: 60rem;
-        height: 7rem;
-        font-size: 2.5rem;
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
+    
+    #uye-ol {
+        width        : 100%;
+        color        : #489ae8;
+        padding      : 2rem;
+        border-radius: 0.2rem;
+        font-size    : 2.2rem;
+        background   : #fafafa;
+        font-weight  : 700;
+        box-shadow   : 1px 0 2px 0 rgba(0, 0, 0, 0.13), 0 0 4px 0 rgba(0, 0, 0, 0.11), 0 2px 3px 0 rgba(0, 0, 0, 0.16);
+        margin-top   : 2rem;
+        display: block;
+        text-align: center;
     }
 
     #m-footer-div {
-        width: 60rem;
-        margin-top: 9rem;
-        font-size: 1.5rem;
-    }
-
-    #txt-one {
-        width: 60rem;
-        font-size: 2.8rem;   
-    }
-    
-    #txt-two {
-        width: 60rem;
-        font-size: 2rem;
-  
-    }
-
-    #txt-tree {
-        width: 60rem;
-        font-size: 2.8rem;
-        margin-top: 1.5rem;
-    }
-
-
-    #f-mid, #f-m-bot{
-        display: none;
-    }
-
-    #footer {
-       height: 8rem;
-    }
-
-    .img-f-left, #f-right-img {
-        width: 5.5rem;
-        height: 5.5rem;
+        width: 100%;
+        font-size: 1.4rem;
+        margin: auto;
+        margin-top: 2rem;
     }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 600px){
+    html {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    html {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    html {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 350px){
     html {
         font-size: 6px;
     }
-    #top {
-        height: 5rem;
-    }
-
-    #top img{
-        width: 26.1rem;
-        height: 5rem;
-    }
-
-    #main-m {
-        height: 142rem;
-        justify-content: initial;
-        display: grid;
-    }
-
-    .middle {
-        width        : 100rem;
-        height       : 70rem;
-        border       : 0.1rem solid #dfdfdf;
-        border-radius: 0.3rem;
-        padding      : 2rem;
-    }
-
-    .clip {
-        width: 10em;
-        height: 10rem;
-    }
-
-    #uye-txt {
-        font-size: 3.6rem;
-    }
-
-    .link-sifre, .link-sifre p{
-        font-size: 2.7rem;
-    }
-
-    .link-sifre a {
-        font-size: 2.2rem;
-    }
-
-    .link-sifre {
-        width: 70rem;
-    }
-
-    #ilerle {
-        font-size: 3.2rem;
-        width: 70rem;
-    }
-
-    #remember-btn {
-        font-size: 2.4rem;
-        width: 70rem;
-        margin-top: 2rem;
-    }
-
-    .input-txt {
-        width: 70rem;
-        height: 7rem;
-        margin-top: 2.5rem;
-        margin-bottom: 2.5rem;
-    }
-
-    #m-footer-div {
-        width: 70rem;
-        margin-top: 9rem;
-        font-size: 1.6rem;
-    }
-
-    #txt-one {
-        width: 70rem;
-        font-size: 3.6rem;   
-    }
-    
-    #txt-two {
-        width: 70rem;
-        font-size: 2.4rem;
-  
-    }
-
-    #txt-tree {
-        width: 70rem;
-        font-size: 3.2rem;
-        margin-top: 1.5rem;
-    }
-
-    #footer {
-        height: 10rem;
-    }
-
-    .img-f-left, #f-right-img {
-        width: 6.5rem;
-        height: 6.5rem;
-    }
-
-    #f-left {
-        width: 55rem;
-    }
-
-    .f-l-left {
-        width: 40rem;
-        height: 6.5rem;
-    }
-
-    .f-img-txt{
-        font-size: 1.6rem;
-    }
 }
 
 
-@media screen and (max-width: 640px){
-    html {
-        font-size: 5px;
-    }
-    #top {
-        height: 6rem;
-        margin-bottom: 2rem;
-    }
 
-    #top img{
-        width: 34rem;
-        height: 7rem;
-    }
-
-    #main-m {
-        height: 182rem;
-        justify-content: initial;
-        display: grid;
-    }
-
-    .middle {
-        width        : 100rem;
-        height       : 90rem;
-        border       : 0.1rem solid #dfdfdf;
-        border-radius: 0.3rem;
-        padding      : 3rem;
-    }
-
-    .clip {
-        width: 12rem;
-        height: 12rem;
-    }
-
-    #uye-txt {
-        font-size: 4.8rem;
-    }
-
-    .link-sifre, .link-sifre p{
-        font-size: 3.5rem;
-    }
-
-    .link-sifre a {
-        font-size: 2.8rem;
-    }
-
-    .link-sifre {
-        width: 75rem;
-    }
-
-    #ilerle {
-        padding: 2rem;
-        font-size: 4.5rem;
-        width: 75rem;
-    }
-
-    #remember-btn {
-        font-size: 2.8rem;
-        width: 75rem;
-        margin-top: 2rem;
-    }
-
-    .input-txt {
-        width: 75rem;
-        height: 9rem;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-        font-size: 3.4rem;
-    }
-
-    #m-footer-div {
-        width: 75rem;
-        margin-top: 9rem;
-        font-size: 2rem;
-    }
-
-    #txt-one {
-        width: 75rem;
-        font-size: 4.8rem;   
-        margin-top: 25rem;
-    }
-    
-    #txt-two {
-        width: 75rem;
-        font-size: 3.2rem;
-  
-    }
-
-    #txt-tree {
-        width: 75rem;
-        font-size: 4.5rem;
-        margin-top: 1.5rem;
-    }
-
-    #footer {
-        height: 13rem;
-    }
-
-    .img-f-left, #f-right-img {
-        width: 8.5rem;
-        height: 8.5rem;
-    }
-
-    #f-left {
-        width: 75rem;
-    }
-
-    .f-l-left {
-        width: 48rem;
-        height: 8.5rem;
-    }
-
-
-    .f-img-txt{
-        font-size: 2.1rem;
-    }
-}
-
-@media screen and (max-width: 560px) {
-    html {
-        font-size: 4.5px;
-    }
-
-    #top {
-        height: 6rem;
-        margin-bottom: 2rem;
-    }
-
-    #top img{
-        width: 34rem;
-        height: 7rem;
-    }
-
-    #main-m {
-        height: 182rem;
-        justify-content: initial;
-        display: grid;
-    }
-
-    .middle {
-        width        : 100rem;
-        height       : 90rem;
-        border       : 0.1rem solid #dfdfdf;
-        border-radius: 0.3rem;
-        padding      : 3rem;
-    }
-
-    .clip {
-        width: 12rem;
-        height: 12rem;
-    }
-
-    #uye-txt {
-        font-size: 4.8rem;
-    }
-
-    .link-sifre, .link-sifre p{
-        font-size: 3.5rem;
-    }
-
-    .link-sifre a {
-        font-size: 2.8rem;
-    }
-
-    .link-sifre {
-        width: 75rem;
-    }
-
-    #ilerle {
-        padding: 2rem;
-        font-size: 4.5rem;
-        width: 75rem;
-    }
-
-    #remember-btn {
-        font-size: 2.8rem;
-        width: 75rem;
-        margin-top: 2rem;
-    }
-
-    .input-txt {
-        width: 75rem;
-        height: 9rem;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-        font-size: 3.4rem;
-    }
-
-    #m-footer-div {
-        width: 75rem;
-        margin-top: 9rem;
-        font-size: 2rem;
-    }
-
-    #txt-one {
-        width: 75rem;
-        font-size: 4.8rem;   
-        margin-top: 25rem;
-    }
-    
-    #txt-two {
-        width: 75rem;
-        font-size: 3.2rem;
-  
-    }
-
-    #txt-tree {
-        width: 75rem;
-        font-size: 4.5rem;
-        margin-top: 1.5rem;
-    }
-
-    #footer {
-        height: 13rem;
-    }
-
-    .img-f-left, #f-right-img {
-        width: 8.5rem;
-        height: 8.5rem;
-    }
-
-    #f-left {
-        width: 75rem;
-    }
-
-    .f-l-left {
-        width: 48rem;
-        height: 8.5rem;
-    }
-
-
-    .f-img-txt{
-        font-size: 2.1rem;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    html {
-        font-size: 4px;
-    }
-
-    #top {
-        height: 6rem;
-        margin-bottom: 2rem;
-    }
-
-    #top img{
-        width: 34rem;
-        height: 7rem;
-    }
-
-    #main-m {
-        height: 182rem;
-        justify-content: initial;
-        display: grid;
-    }
-
-    .middle {
-        width        : 100rem;
-        height       : 90rem;
-        border       : 0.1rem solid #dfdfdf;
-        border-radius: 0.3rem;
-        padding      : 3rem;
-    }
-
-    .clip {
-        width: 12rem;
-        height: 12rem;
-    }
-
-    #uye-txt {
-        font-size: 4.8rem;
-    }
-
-    .link-sifre, .link-sifre p{
-        font-size: 3.5rem;
-    }
-
-    .link-sifre a {
-        font-size: 2.8rem;
-    }
-
-    .link-sifre {
-        width: 75rem;
-    }
-
-    #ilerle {
-        padding: 2rem;
-        font-size: 4.5rem;
-        width: 75rem;
-    }
-
-    #remember-btn {
-        font-size: 2.8rem;
-        width: 75rem;
-        margin-top: 2rem;
-    }
-
-    .input-txt {
-        width: 75rem;
-        height: 9rem;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-        font-size: 3.4rem;
-    }
-
-    #m-footer-div {
-        width: 75rem;
-        margin-top: 9rem;
-        font-size: 2rem;
-    }
-
-    #txt-one {
-        width: 75rem;
-        font-size: 4.8rem;   
-        margin-top: 25rem;
-    }
-    
-    #txt-two {
-        width: 75rem;
-        font-size: 3.2rem;
-  
-    }
-
-    #txt-tree {
-        width: 75rem;
-        font-size: 4.5rem;
-        margin-top: 1.5rem;
-    }
-
-    #footer {
-        height: 13rem;
-    }
-
-    .img-f-left, #f-right-img {
-        width: 8.5rem;
-        height: 8.5rem;
-    }
-
-    #f-left {
-        width: 75rem;
-    }
-
-    .f-l-left {
-        width: 48rem;
-        height: 8.5rem;
-    }
-
-
-    .f-img-txt{
-        font-size: 2.1rem;
-    }
-}
-
-@media screen and (max-width: 430px) {
-    html {
-        font-size: 3.5px;
-    }
-
-    #top {
-        height: 6rem;
-        margin-bottom: 2rem;
-    }
-
-    #top img{
-        width: 34rem;
-        height: 7rem;
-    }
-
-    #main-m {
-        height: 182rem;
-        justify-content: initial;
-        display: grid;
-    }
-
-    .middle {
-        width        : 100rem;
-        height       : 90rem;
-        border       : 0.1rem solid #dfdfdf;
-        border-radius: 0.3rem;
-        padding      : 3rem;
-    }
-
-    .clip {
-        width: 12rem;
-        height: 12rem;
-    }
-
-    #uye-txt {
-        font-size: 4.8rem;
-    }
-
-    .link-sifre, .link-sifre p{
-        font-size: 3.5rem;
-    }
-
-    .link-sifre a {
-        font-size: 2.8rem;
-    }
-
-    .link-sifre {
-        width: 75rem;
-    }
-
-    #ilerle {
-        padding: 2rem;
-        font-size: 4.5rem;
-        width: 75rem;
-    }
-
-    #remember-btn {
-        font-size: 2.8rem;
-        width: 75rem;
-        margin-top: 2rem;
-    }
-
-    .input-txt {
-        width: 75rem;
-        height: 9rem;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-        font-size: 3.4rem;
-    }
-
-    #m-footer-div {
-        width: 75rem;
-        margin-top: 9rem;
-        font-size: 2rem;
-    }
-
-    #txt-one {
-        width: 75rem;
-        font-size: 4.8rem;   
-        margin-top: 25rem;
-    }
-    
-    #txt-two {
-        width: 75rem;
-        font-size: 3.2rem;
-  
-    }
-
-    #txt-tree {
-        width: 75rem;
-        font-size: 4.5rem;
-        margin-top: 1.5rem;
-    }
-
-    #footer {
-        height: 13rem;
-    }
-
-    .img-f-left, #f-right-img {
-        width: 9.5rem;
-        height: 9.5rem;
-    }
-
-    #f-left {
-        width: 85rem;
-    }
-
-    .f-l-left {
-        width: 50rem;
-        height: 9.5rem;
-    }
-
-
-    .f-img-txt{
-        font-size: 2.5rem;
-    }
-}
-
-@media screen and (max-width: 380px) {
-    html{
-        font-size: 3px;
-    }
-    
-    #top {
-        height: 8rem;
-        margin-bottom: 2rem;
-    }
-
-    #top img{
-        width: 38rem;
-        height: 8rem;
-    }
-
-    #main-m {
-        height: 215rem;
-        justify-content: initial;
-        display: grid;
-    }
-
-    .middle {
-        width        : 100rem;
-        height       : 115rem;
-        border       : 0.1rem solid #dfdfdf;
-        border-radius: 0.3rem;
-        padding      : 3rem;
-    }
-
-    .middle-two {
-        height: 90rem;
-    }
-
-    .clip {
-        width: 13rem;
-        height: 13rem;
-    }
-
-    #uye-txt {
-        font-size: 5.5rem;
-    }
-
-    .link-sifre, .link-sifre p{
-        font-size: 4.5rem;
-        margin-bottom: 6rem;
-    }
-
-    .link-sifre a {
-        font-size: 3.2rem;
-    }
-
-    .link-sifre {
-        width: 80rem;
-    }
-
-    #ilerle {
-        padding: 3rem;
-        font-size: 5.5rem;
-        width: 80rem;
-    }
-
-    #remember-btn {
-        font-size: 3.5rem;
-        width: 80rem;
-        margin-top: 2rem;
-    }
-
-    .input-txt {
-        width: 80rem;
-        height: 11rem;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-        font-size: 4.5rem;
-    }
-
-    #m-footer-div {
-        width: 80rem;
-        margin-top: 15rem;
-        font-size: 2.6rem;
-    }
-
-    #txt-one {
-        width: 80rem;
-        font-size: 5.5rem;   
-        margin-top: 25rem;
-    }
-    
-    #txt-two {
-        width: 80rem;
-        font-size: 4rem;
-    }
-
-    #txt-tree {
-        width: 80rem;
-        font-size: 5.5rem;
-        margin-top: 1.5rem;
-        padding: 3rem;
-    }
-
-    #footer {
-        height: 13rem;
-    }
-
-    .img-f-left, #f-right-img {
-        width: 9.5rem;
-        height: 9.5rem;
-    }
-
-    #f-left {
-        width: 85rem;
-    }
-
-    .f-l-left {
-        width: 50rem;
-        height: 9.5rem;
-    }
-
-
-    .f-img-txt{
-        font-size: 2.5rem;
-    }
-}
