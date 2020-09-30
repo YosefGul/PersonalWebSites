@@ -364,6 +364,13 @@
     #all {
         display: none
     }
+    #mobile-top {
+        display: flex;
+    }
+
+    #back-unicode, #back-unicode a, #mb-txt-one, #mobile-middle, .mb-txt-question, .mb-input-txt,  #mb-remember-btn, #uye-ol, #m-footer-div-two, #ilerle-two {
+        display: block;
+    }
 
     body {
         margin: 0;
@@ -436,9 +443,18 @@
     #ilerle-two {
         width: 100%;
         padding: 2rem;
+        margin          : auto;
         margin-top: 2rem;
         margin-bottom: 2rem;
         font-size: 2.2rem;
+        color           : white;
+        background-color: #489ae9;
+        font-weight     : 700;
+        border-radius   : 0.3rem;
+        text-align      : center;
+        box-shadow   : 1px 0 2px 0 rgba(0, 0, 0, 0.13), 0 0 4px 0 rgba(0, 0, 0, 0.11), 0 2px 3px 0 rgba(0, 0, 0, 0.16);
+
+}
     }
     
     #uye-ol {
@@ -455,11 +471,12 @@
         text-align: center;
     }
 
-    #m-footer-div {
+    #m-footer-div-two {
         width: 100%;
         font-size: 1.4rem;
         margin: auto;
-        margin-top: 2rem;
+        margin-top: 10rem;
+        color     : rgb(145, 145, 145);
     }
 }
 
